@@ -1,7 +1,15 @@
+@font-face {
+  font-family: emoji;
+  src: url(../fonts/NotoColorEmoji.ttf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0 auto;
   margin: 0 auto;
+}
+body {
+  background-color: #222222;
 }
 
 h1 {
@@ -73,4 +81,23 @@ input::-webkit-inner-spin-button {
 button:hover {
   border: none;
   background-position-x: 100%;
+}
+
+.natijalar {
+  width: 250px;
+  height: auto;
+  border: 2px solid gray;
+  background-color: #222222;
+}
+
+.natijalar p{
+  line-height: 1.6;
+  margin: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+strong {
+  font-family: emoji;
 }
