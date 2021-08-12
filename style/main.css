@@ -1,8 +1,3 @@
-@font-face {
-  font-family: emoji;
-  src: url(../fonts/NotoColorEmoji.ttf);
-}
-
 * {
   box-sizing: border-box;
   padding: 0 auto;
@@ -96,8 +91,4 @@ button:hover {
   color: white;
   font-family: sans-serif;
   font-weight: 300;
-}
-
-strong {
-  font-family: emoji;
 }
