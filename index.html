@@ -12,22 +12,30 @@
     <div id="asosiy">
       <fieldset>
         <legend>Ma'lumotlarni kiriting:</legend>
-        <label for="fname">Bo'yingiz:</label>
+        <label for="height">Bo'yingiz:</label>
         <input
+          class="inputs"
           type="number"
-          id="fname"
           name="fname"
           placeholder="Bo'yingiz cm da..."
+          id="height"
         /><br /><br />
-        <label for="fname">Vazningiz:</label>
+        <label for="mass">Vazningiz:</label>
         <input
+          oninput="LetsHS()"
+          class="inputs"
           type="number"
-          id="fname"
           name="fname"
           placeholder="Vazningiz kg da..."
+          id="mass"
         /><br /><br />
-        <button>HISOBLA</button>
+        <button id="hisobla">HISOBLA</button>
       </fieldset>
+    </div>
+    <div class="natijalar">
+      <p id="javobi">
+        
+      </p>
     </div>
 
     <script src="scripts/app.js"></script>
