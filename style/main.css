@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f87203;
+  color: white;
+}
+
+#asosiy {
+  color: white;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+fieldset {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  outline: none;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+label {
+  width: 200px;
+  padding: 5px 10px;
+}
+
+button {
+  width: 200px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 200%;
+  color: #222222;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:hover {
+  border: none;
+  background-position-x: 100%;
+}
