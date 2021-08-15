@@ -23,14 +23,17 @@ hisobla.onclick = function(){
    if (natija<=16) {
     javobi.innerHTML = "Siz juda ozg'insiz! (yuqori ingichka)<strong>😔😔, <br>Semirishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
     reklama2.style.display = "flex";
+    reklama.style.display = "none";
    }
    else if (natija<=16.9 && natija>=16) {
     javobi.innerHTML = "Siz ozg'insiz! (o'rtacha)<strong>😔<br>Semirishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
     reklama2.style.display = "flex";
+    reklama.style.display = "none";
    }
    else if (natija<=18.4 && natija>=17) {
     javobi.innerHTML = "Siz juda ozg'insiz. (boshlang'ich)<strong>😞<br>Semirishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
     reklama2.style.display = "flex";
+    reklama.style.display = "none";
    }
    else if (natija<=24.9 && natija>=18.5) {
     javobi.innerHTML = "Sizning vazninggiz yaxshi, ovqat rastioninga to'g'ri amal qlishda davom eting!<strong>☺️☺️</strong>";
