@@ -42,19 +42,19 @@ hisobla.onclick = function(){
    }
    else if ( natija<= 29.9 && natija>=25 ) {
     javobi.innerHTML = "Sizning vazninggiz ortiqcha, semirish arafasida turbsiz!<strong>😞😞</strong>";
-    reklama.style.display = "flex";
+    reklama.style.display = "flex", reklama2.style.display = "none";
    }
    else if ( natija<=34.9 && natija>=30 ) {
     javobi.innerHTML = "Siz semizlikning I sinfidasiz!<strong>😞😔<br>Ozishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
-    reklama.style.display = "flex";
+    reklama.style.display = "flex", reklama2.style.display = "none";
    }
    else if ( natija<=39.9 && natija>=35 ) {
     javobi.innerHTML = "Siz semizlikning II sinfidasiz!<strong>😔<br>Ozishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
-    reklama.style.display = "flex";
+    reklama.style.display = "flex", reklama2.style.display = "none";
    }
    else if ( natija>=40) {
     javobi.innerHTML = "Siz semizlikning III sinfidasiz! <strong>😔😔<br>Ozishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
-    reklama.style.display = "flex";
+    reklama.style.display = "flex", reklama2.style.display = "none";
    }
    console.log(natija)
    
