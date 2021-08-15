@@ -1,3 +1,8 @@
+@font-face {
+  font-family: emoji;
+  src: url(../fonts/NotoColorEmoji.ttf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0 auto;
@@ -44,7 +49,7 @@ label {
   padding: 5px 10px;
 }
 
-button {
+fieldset button {
   width: 200px;
   padding: 5px 10px;
   outline: none;
@@ -79,6 +84,10 @@ button:hover {
 }
 
 .natijalar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 250px;
   height: auto;
   border: 2px solid gray;
@@ -91,4 +100,96 @@ button:hover {
   color: white;
   font-family: sans-serif;
   font-weight: 300;
+}
+
+.natijalar img {
+  width: 246px;
+  height: 240px;
+}
+
+.footer p{
+  text-align: center;
+  font-family: monospace;
+  color: #2980b9;
+  background-color: black;
+  padding: 5px 0;
+}
+
+.natijalar a {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px 10px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(0, 255, 115);
+}
+
+.natijalar a:active{
+  background-color: aqua;
+}
+
+.reklama {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.reklama2 {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  justify-content: center;
+  width: 170px;
+  background-color: red;
+  color: white;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  transform: rotate(-15deg);
+  border-radius: 3px
+}
+hr {
+  width: 100%;
+  border: 1px solid white;
+  margin: 20px 0;
+}
+
+
+span {
+  animation-name: box;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+@keyframes box {
+  0% {
+      opacity: 0%;
+  }
+
+  20% {
+    opacity: 100%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
