@@ -41,7 +41,7 @@ hisobla.onclick = function(){
     reklama2.style.display = "none";
    }
    else if ( natija<= 29.9 && natija>=25 ) {
-    javobi.innerHTML = "Sizning vazninggiz ortiqcha, semirish arafasida turbsiz!<strong>😞😞</strong>";
+    javobi.innerHTML = "Sizning vazninggiz ortiqcha, semirish arafasida turbsiz!<strong>😞😞Ozishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
     reklama.style.display = "flex", reklama2.style.display = "none";
    }
    else if ( natija<=34.9 && natija>=30 ) {
