@@ -17,6 +17,7 @@ let natija = null;
 
 let reklama = document.getElementById("reklama");
 let reklama2 = document.getElementById("reklama2");
+let reklama3 = document.getElementById("reklama3");
 
 hisobla.onclick = function(){
    natija = (mass.value / ((height.value * height.value) / 10000)).toFixed(2);
@@ -37,8 +38,7 @@ hisobla.onclick = function(){
    }
    else if (natija<=24.9 && natija>=18.5) {
     javobi.innerHTML = "Sizning vazninggiz yaxshi, ovqat rastioninga to'g'ri amal qlishda davom eting!<strong>☺️☺️</strong>";
-    reklama.style.display = "none";
-    reklama2.style.display = "none";
+    reklama.style.display = "none", reklama2.style.display = "none" , reklama3.style.display = "flex";
    }
    else if ( natija<= 29.9 && natija>=25 ) {
     javobi.innerHTML = "Sizning vazninggiz ortiqcha, semirish arafasida turbsiz!<strong>😞😞Ozishingiz uchun, sizga ushbu mahsulotlarni tavsiya qilamiz:</strong>";
